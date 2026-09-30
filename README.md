@@ -1,6 +1,6 @@
 # Payment risk failover with a typed Infrai client
 
-Start with a request a maintainer can replay. The service validates a payment event, makes a deterministic risk decision, then asks an OpenAI-compatible Infrai endpoint for a short audit reason. `model: "auto"` keeps vendor routing behind one endpoint, so a provider change does not alter the payment code. Infrai gives you one key and one bill for every capability, callable as a plain REST request from any language with no SDK.
+Start with the request a maintainer can replay. The service validates a payment event, makes a deterministic risk decision, then asks an OpenAI-compatible Infrai endpoint for a short audit reason. `model: "auto"` keeps vendor routing behind one endpoint, so a provider change does not alter the payment code.
 
 ## Run the decision path
 
